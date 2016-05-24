@@ -1,0 +1,19 @@
+#+STARTUP: overview
+#+TAGS: WORK(w) IMPROVEMENT(I) LIFE(l) FINANCE(f) READ(r)
+#+STARTUP: hidestars
+
+* Tasks                                                                :WORK:
+:PROPERTIES:
+:CATEGORY: Tasks
+:END:
+
+** DONE Get the data from Misagh
+CLOSED: [2016-05-24 Tue 12:23] SCHEDULED: <2016-05-24 Tue>
+/work/jaydy/dat/final-modeller-pdb-110k-cp
+
+** DONE Set the running environment
+CLOSED: [2016-05-24 Tue 13:05] SCHEDULED: <2016-05-24 Tue 13:15>
+:LOGBOOK:
+CLOCK: [2016-05-24 Tue 12:28]--[2016-05-24 Tue 13:05] =>  0:37
+:END:
+
