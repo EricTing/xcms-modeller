@@ -17,3 +17,22 @@ CLOSED: [2016-05-24 Tue 13:05] SCHEDULED: <2016-05-24 Tue 13:15>
 CLOCK: [2016-05-24 Tue 12:28]--[2016-05-24 Tue 13:05] =>  0:37
 :END:
 
+** DONE Query on the BioLiP dataset
+CLOSED: [2016-05-24 Tue 20:58] SCHEDULED: <2016-05-24 Tue 13:40>
+:LOGBOOK:
+CLOCK: [2016-05-24 Tue 20:29]--[2016-05-24 Tue 20:58] =>  0:29
+CLOCK: [2016-05-24 Tue 16:34]--[2016-05-24 Tue 17:11] =>  0:37
+CLOCK: [2016-05-24 Tue 15:53]--[2016-05-24 Tue 16:22] =>  0:29
+CLOCK: [2016-05-24 Tue 15:07]--[2016-05-24 Tue 15:32] =>  0:25
+CLOCK: [2016-05-24 Tue 14:57]--[2016-05-24 Tue 15:02] =>  0:05
+:END:
+./src/queryBioLiP.py
+
+*** DONE Try sampled dataset
+CLOSED: [2016-05-25 Wed 11:39] SCHEDULED: <2016-05-24 Tue>
+./src/xcms_mod.sampled.txt
+
+*** TODO Explore the result of the sampled dataset
+
+** TODO Productive running
+SCHEDULED: <2016-05-25 Wed>
