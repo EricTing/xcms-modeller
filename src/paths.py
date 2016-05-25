@@ -11,6 +11,15 @@ class Paths:
         self.mypdb = mypdb
         self.pdb_path = JOB_PATH[self.mypdb]
 
+        dirname = os.path.dirname(self.pdb_path)
+        mydir = dirname.split('/')[-1]
+        self.work_dir = os.path.join("/work/jaydy/working/xcms_mod",
+                                     mydir)
+        try:
+            os.makedirs(self.work_dir)
+        except Exception:
+            pass
+
 
 class SeparatePdb(luigi.Task):
     mypdb = luigi.Parameter()
