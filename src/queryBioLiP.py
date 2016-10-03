@@ -34,7 +34,7 @@ def main(mypdb):
 
 
 def test():
-    mypdb = "BDB00000001-000-T0000-1crpA06.mod.pdb"
+    mypdb = "BDB00035804-000-T0002-3vgaA00.mod.pdb"
     luigi.build([QueryBioLiP(mypdb)], local_scheduler=True)
 
 

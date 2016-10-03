@@ -9,7 +9,8 @@
 
 ** DONE Get the data from Misagh
 CLOSED: [2016-05-24 Tue 12:23] SCHEDULED: <2016-05-24 Tue>
-1. [[file:/work/jaydy/dat/final-modeller-pdb-110k-cp][Data directory]]
+1. Directory:
+   file:/work/jaydy/dat/final-modeller-pdb-110k-cp/
 
 ** DONE Set the running environment
 CLOSED: [2016-05-24 Tue 13:05] SCHEDULED: <2016-05-24 Tue 13:15>
@@ -26,11 +27,12 @@ CLOCK: [2016-05-24 Tue 15:53]--[2016-05-24 Tue 16:22] =>  0:29
 CLOCK: [2016-05-24 Tue 15:07]--[2016-05-24 Tue 15:32] =>  0:25
 CLOCK: [2016-05-24 Tue 14:57]--[2016-05-24 Tue 15:02] =>  0:05
 :END:
-./src/queryBioLiP.py
+file:./src/queryBioLiP.py
 
 *** DONE Try sampled dataset
 CLOSED: [2016-05-25 Wed 11:39] SCHEDULED: <2016-05-24 Tue>
-1. [[file:src/xcms_mod.sampled.txt][Sampled job list]] 
+1. Sampled job list:
+   file:src/xcms_mod.sampled.txt
 
 *** DONE Explore the result of the sampled dataset
 CLOSED: [2016-05-25 Wed 14:30]
@@ -40,12 +42,23 @@ CLOCK: [2016-05-25 Wed 11:58]--[2016-05-25 Wed 12:41] =>  0:43
 
 ** DONE Productive running
 CLOSED: [2016-05-29 Sun 16:05] SCHEDULED: <2016-05-25 Wed>
-1. [[file:src/jobs.txt][Job list]]
+1. Job list
+   file:src/jobs.txt
 
 ** TODO Sanity check
 DEADLINE: <2016-10-03 Mon>
+:LOGBOOK:
+CLOCK: [2016-10-03 Mon 14:50]--[2016-10-03 Mon 15:20] =>  0:30
+CLOCK: [2016-10-03 Mon 13:27]--[2016-10-03 Mon 14:10] =>  0:43
+CLOCK: [2016-10-03 Mon 12:38]--[2016-10-03 Mon 12:49] =>  0:11
+:END:
 1. failed cases
-   ./dat/failed_xcms_mod.lst
+   file:./dat/failed_xcms_mod.lst
+2. [-] investigate the failure cases
+   1. [X]  OK ... BDB00035804-000-T0002-3vgaA00.mod.pdb
+      file:./dat/BDB00035804-000-T0002-3vgaA00.mod.pdb.csv
+   2. [ ] failures due to wall time limit on mike?
+      1. [ ] re-launch
 
 ** DONE Send Misagh the BioLiP dataset for referencing
 CLOSED: [2016-06-02 Thu 00:01] DEADLINE: <2016-06-01 Wed 13:00>

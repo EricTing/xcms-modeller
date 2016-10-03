@@ -2,8 +2,8 @@
 #######################################################################
 # Begin WQ prologue section.
 #######################################################################
-#PBS -l nodes=8:ppn=16
-#PBS -l walltime=10:00:00
+#PBS -l nodes=3:ppn=16
+#PBS -l walltime=72:00:00
 #PBS -q workq
 #PBS -N xcms_mod
 #PBS -o /work/jaydy/working/
